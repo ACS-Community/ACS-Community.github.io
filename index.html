@@ -32,7 +32,7 @@
 				<li><a href="about.html">About</a></li>
 				<li><a href="help.html">Get Help</a></li>
 				<li><a href="#">Contribute</a></li>
-				<li><a href="#" target="_blank">Documentation</a></li>-				
+				<li><a href="#" target="_blank">Documentation</a></li>-
 			</ul>
 		</div>
 		<div class="search pull-right">
@@ -46,41 +46,41 @@
 
 	<section id="hero">
 		<img src="images/acs-community-front.png" alt="ACS Community Branch" />
-		<p>The "ACS Community" (or "Community" from here onwards) is defined as the group of ACS 
+		<p>The "ACS Community" (or "Community" from here onwards) is defined as the group of ACS
 		users and voluntary Community Branch contributors.</p>
 
 		<div id="documentation">
 			<a class="button" href="#" target="_blank">Current Documentation</a>
 		</div>
 		<p class="version">Current Version: 2014-04-ACS-B</p>
-		
-	
+
+
     </section>
 
 	<section class="install" id="lists">
 		<h2>Install ACS</h2>
 		<div id="os-selector">
-			<ul>								
+			<ul>
 				<li><a href="#source"><img src="" /><span> Source</span></a></li>
 				<li><a href="#dev" class="right"><img src="images/github-mark.png" /><span> Developer</span></a></li>
-			</ul>			
+			</ul>
 			<div id="source">
 				<h2>Checkout ACS</h2>
 				To install ACS from source, first checkout ACS from source:
 				<pre>$  git clone git@github.com:ACS-Community/ACS.git</pre>
-				
+
 				<p>Branches, new development and patches are always applied to the master, while every ACS release is split off into a separate branch.</p>
 
 				<h2>Building ACS</h2>
-				<p>ACS can be built in Red Hat Enterpise Linux 5.X or 6.X, 32-bit or 64-bit (also works on CentOS 
-				and Scientific Linux). In RHEL 6.X mico ORB, which is part of the external products, will fail, 
+				<p>ACS can be built in Red Hat Enterpise Linux 5.X or 6.X, 32-bit or 64-bit (also works on CentOS
+				and Scientific Linux). In RHEL 6.X mico ORB, which is part of the external products, will fail,
 				this is expected and should not affect the rest of the installation.</p>
 
-				<p>To build ACS, it is required the installation of the development tools package set, plus the 
+				<p>To build ACS, it is required the installation of the development tools package set, plus the
 					following packages:
 				</p>
-				
-				<table style="width:100%"> 
+
+				<table style="width:100%">
 				<tr>
 					<td>ksh</td>
                     <td>blas-devel</td>
@@ -100,7 +100,7 @@
                     <td>vs</td>
                     <td>subversion</td>
                     <td>openssh</td>
-                    <td>git</td>                    
+                    <td>git</td>
                 </tr>
                 <tr>
                 	<td>tdbX11-devel</td>
@@ -121,7 +121,7 @@
                     <td>openldap-devel</td>
                     <td>tdbfreetype-devel</td>
                     <td>tdbpng12-devel</td>
-                    <td>tdbxml2-devel</td>                
+                    <td>tdbxml2-devel</td>
             	</tr>
             	<tr>
                     <td>tdbxslt-devel</td>
@@ -144,7 +144,7 @@
                     <td>time</td>
                 </tr>
 				</table>
-			
+
 
 			Please consider that the names may vary depending on the OS used. The following packages are needed once ACS has been installed:
 			<ol style="list-style-type: square; margin-left: 30px;">
@@ -163,19 +163,32 @@
 
 			<p>It is possible to use multiple CPUs when ACS is being built. To do that the MAKE_PARS environment variable has to be exported and it should contain the make parameters to be used in the build. For example if your machine has 4 cores available, you can use: MAKE_PARS=" -j 4 " make in the top level ACS directory</p>
 			</div>
-								
+
 			<div id="dev">
 				<p>The latest developer code is available on <a href="https://github.com/ACS-Community/ACS">GitHub</a>
 				<p>For more on installing from source code, see the <a href="https://github.com/ACS-Community/ACS/wiki/Repository%20Contents"> relevant part of the documentation</a>.</p>
 			</div>
-		</div>		
+		</div>
+	</section>
+
+	<section class="acs-ws-2015"  id="lists">
+		<div id="os-selector">
+			<h2>ACS Workshop 2015 @ UFRO</h2>
+			<p>This year's workshop is currently being held at Universidad de la Frontera, in Temuco, Chile.</p>
+			<p>More information and material for the workshop can be found in the following links:</p>
+			<ul>
+				<li>Agenda and Participants <a href="https://github.com/ACS-Community/ACS-Workshop/wiki/12th-ACS-Workshop-2015">here</a></li>
+				<li>Observatory Software Toy model <a href="https://github.com/ACS-Community/ACS-Workshop/wiki/Observatory-Software-Toy-Model">here</a></li>
+				<li>Slide1 <a href="slides/01-ACS-Introduction.pdf">here</a></li>
+			</ul>
+		</div>
 	</section>
 
 	<section class="whatsnext">
 		<h2>What's Next?</h2>
 		<p>Once you have installed ACS, you can head over to the <a
 		href="https://github.com/ACS-Community/ACS/wiki">ACS Wiki</a> for an overview of the
-		functionality available in ACS. 
+		functionality available in ACS.
 		</p>
 		<a class="button" href="https://github.com/ACS-Community/ACS-Workshop/wiki" target="_blank">ACS Workshops Wiki</a>
 
@@ -184,8 +197,8 @@
 		ACS-Community, please report them using the
 		<a href="https://github.com/ACS-Community/ACS/issues">issue tracker</a>.
 		Finally, If you have any questions regarding using ACS-Community, or have feedback on how we
-		can improve the package, please head over to our 
-		<a href="#">feedback and contributing</a> or 
+		can improve the package, please head over to our
+		<a href="#">feedback and contributing</a> or
 		<a href="help.html">help</a> pages.</p>
 
 		<a class="button" href="#" target="_blank">Contribute feedback or code</a>
@@ -194,7 +207,7 @@
 	</section>
 
 	<section class="cite">
-		
+
 	</section>
 
 	<footer>
